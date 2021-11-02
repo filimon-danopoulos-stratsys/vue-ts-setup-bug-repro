@@ -1,19 +1,3 @@
 # ts-setup-bug
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Reproduction for a bug where typechecking is not performed on `<script setup lang="ts">`
